@@ -1,6 +1,6 @@
 It is a real time weather fetching application built using core HTML, CSS, JAVASCRIPT.
 
-Github Link:- https://github.com/GaganK-singh/RealTime-Weather-App/
+Github Link:- https://github.com/GaganK-singh/RealTime-Weather-App/ <br>
 Deployment Link:- https://gagank-singh.github.io/RealTime-Weather-App/
 
 Description:- 
