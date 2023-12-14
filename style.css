@@ -2,24 +2,33 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
+    color: black;
+    background-image: url("data:image/jpeg;base64,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");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #weather-container {
-    border: 1px solid #ccc;
-    padding: 20px;
     border-radius: 10px;
-    width: 300px;
-    margin: 0 auto;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 2rem;
+    width: 20rem;
+    margin: auto;
+    margin-top: 15rem;
 }
 
 #city {
     font-size: 1.5em;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
 }
 
 #temperature {
-    font-size: 2em;
+    font-size: 2rem;
     margin: 10px 0;
 }
 
@@ -29,6 +38,9 @@ body {
 
 #fetch-button {
     padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px
     font-size: 1em;
+    border-style: none;
     cursor: pointer;
 }
