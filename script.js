@@ -13,13 +13,13 @@ async function fetchCity() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(async position => {
                 const { latitude, longitude } = position.coords;
-                // const reverseGeocodeApiUrl = `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${cityapi}`;
+                 const reverseGeocodeApiUrl = `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=${cityapi}`;
 
                 try {
-                    // const reverseGeocodeResponse = await fetch(reverseGeocodeApiUrl);
-                    // const reverseGeocodeData = await reverseGeocodeResponse.json();
+                    const reverseGeocodeResponse = await fetch(reverseGeocodeApiUrl);
+                    const reverseGeocodeData = await reverseGeocodeResponse.json();
 
-                    // document.getElementById('city').textContent = reverseGeocodeData.results[0].components.city;
+                    document.getElementById('city').textContent = reverseGeocodeData.results[0].components.city;
                     resolve({ lat: latitude, lon: longitude });
                 } catch (error) {
                     reject(error);
