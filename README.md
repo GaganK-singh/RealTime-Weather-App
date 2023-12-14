@@ -10,3 +10,5 @@ Description:-
 2) On the client-side interface we get our current location and realtime temprature of the location
 
 Screenshot:-
+![Screenshot (201)](https://github.com/GaganK-singh/RealTime-Weather-App/assets/41460460/4177be07-65a1-4537-ab02-ef73ba5593f3)
+
