@@ -1,14 +1,14 @@
 async function fetchCityAndWeather() {
     try {
-        const { lat, lon } = await fetchCity();
-        await fetchWeather(lat, lon);
+        const { latitude , longitude } = await fetchCity();
+        await fetchWeather(latitude, longitude);
     } catch (error) {
         console.error('Error fetching data:', error);
     }
 }
 
 async function fetchCity() {
-    const cityApiKey = 'YOUR_API_KEY_HERE';
+    const cityApiKey = '57b4d3453841434d8d2dc11c482bfbdd';
     return new Promise((resolve, reject) => {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(async position => {
